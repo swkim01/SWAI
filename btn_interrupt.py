@@ -6,7 +6,7 @@ count = 0
 def handler(channel):
     global count
     count = count + 1
-    print count
+    print(count)
 
 GPIO.setup(23, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.setup(24, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)

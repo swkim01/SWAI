@@ -26,8 +26,8 @@ def draw_rects(img, rects, color):
 if __name__ == '__main__':
 
     #cascade_fn = "/usr/local/share/OpenCV/lbpcascades/lbpcascade_frontalface.xml"
-    #cascade_fn = "haarcascade_frontalface_default.xml"
-    cascade_fn = "lbpcascade_frontalface.xml"
+    cascade_fn = "haarcascade_frontalface_default.xml"
+    #cascade_fn = "lbpcascade_frontalface.xml"
     #nested_fn  = "/usr/local/share/OpenCV//haarcascades/haarcascade_eye.xml"
 
     cascade = cv2.CascadeClassifier(cascade_fn)
