@@ -2,9 +2,9 @@ from flask import Flask, render_template_string
 import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
-leds = [18, 12]
+leds = [18, 23]
 ledStates = [0, 0]
-button = 19
+button = 24
 GPIO.setup(leds[0], GPIO.OUT)
 GPIO.setup(leds[1], GPIO.OUT)
 GPIO.setup(button, GPIO.IN, pull_up_down=GPIO.PUD_UP)
